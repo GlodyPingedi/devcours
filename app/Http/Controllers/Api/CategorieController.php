@@ -14,6 +14,7 @@ class CategorieController extends Controller
     public function index()
     {
         //essaie
+        //il y a encore modificacion
         $categories = Categorie::all();
         return response()->json($categories);
     }
