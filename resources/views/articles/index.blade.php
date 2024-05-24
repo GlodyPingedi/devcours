@@ -2,7 +2,7 @@
     
       <x-slot name="header">
           <h2 class="font-semibold text-xl text-gray-800 leading-tight" onclick="getUsers()">
-              {{ __('Liste des articles') }}
+              {{ __('Liste des Articles') }}
           </h2>
       </x-slot>
    
