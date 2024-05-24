@@ -15,7 +15,7 @@ class CategorieController extends Controller
     {
         //essaie
         //il y a encore modificacion
-        $categories = Categorie::all();
+        $categories = Categorie::all(); // tout à la liste
         return response()->json($categories);
     }
 
